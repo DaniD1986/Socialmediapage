@@ -5,6 +5,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+	
+--purple: #823A8B;
+--purple-dark: #4B2050;
+--orange: #F49953;
+--orange-dark: #EB5E45;
+--offwhite: #EEEFEA;
+--green: #7B934D;
+
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -26,6 +34,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  */
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -34,6 +43,7 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
 
 *,
 *::before,
@@ -153,13 +163,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #F49953;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #EB5E45;
   text-decoration: underline;
 }
 
@@ -501,7 +511,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #F49953;
   word-wrap: break-word;
 }
 
@@ -2543,41 +2553,43 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #EEEFEA;
+  background-color: #823A8B;
+  border-color: #823A8B;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  color: #EB5E45;
+  background-color: #823A8B;
+  border-color: #823A8B;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  color: #EEEFEA;
+  background-color: #823A8B;
+  border-color: #823A8B;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #4B2050;
+  background-color: #EEEFEA;
+  border-color: #EEEFEA;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
+  background-color: #F49953;
+  border-color: #F49953;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
+
+/* no color changes made to btns below this comment- Don't know what they are for - Eva-Maria*/
 
 .btn-secondary {
   color: #fff;
@@ -4234,7 +4246,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: #823A8B;
   pointer-events: none;
   cursor: default;
 }
@@ -4258,7 +4270,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #823A8B;
   background-color: transparent;
   border-color: transparent;
 }
