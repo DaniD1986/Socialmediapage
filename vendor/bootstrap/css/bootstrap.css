@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
 h2, .h2 {
@@ -464,7 +464,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #EEEFEA;
 }
 
 .blockquote-footer::before {
@@ -3412,7 +3412,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-  color: #6c757d;
+  color: #EEEFEA;
   white-space: nowrap;
 }
 
