@@ -24,7 +24,7 @@ body {
 
 .nav-link:hover
 {
-  color: #4B2050;
+  color: #823A8B;
 }
 
 .page-link {
@@ -36,8 +36,13 @@ a
   color: #F49953;
 }
 
-card-header {
-  color: #EB5E45;
+a:hover
+{
+  color: #823A8B;
+}
+
+.card-header {
+    background-color: #F49953;
 }
 
 body {
@@ -49,7 +54,7 @@ h1{
 }
 
 h5 {
-  color: #EB5E45;
+  color: white;
 }
 
 .btn-primary {
@@ -62,6 +67,18 @@ h5 {
   color: #fff;
   background-color: #EB5E45;
   border-color: #EB5E45;
+}
+
+.btn-secondary {
+    color: #EB5E45;
+    background-color: #EEEFEA;
+    border-color: #EB5E45;
+}
+
+.btn-secondary:hover {
+    color: #EEEFEA;
+    background-color: #EB5E45;
+    border-color: #EB5E45;
 }
 
 footer {
