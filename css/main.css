@@ -18,10 +18,18 @@ body {
   color: #EB5E45;
 }
 
-.nav-link, .page-link {
+.nav-link {
   color: #F49953;
 }
 
+.nav-link:hover
+{
+  color: #4B2050;
+}
+
+.page-link {
+  color: #F49953;
+}
 
 a
 {
@@ -42,4 +50,21 @@ h1{
 
 h5 {
   color: #EB5E45;
+}
+
+.btn-primary {
+    color: #F49953;
+    background-color: #823A8B;
+    border-color: #823A8B;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #EB5E45;
+  border-color: #EB5E45;
+}
+
+footer {
+  background-color: #EEEFEA;
+   color: #EB5E45;
 }
