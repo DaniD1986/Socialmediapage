@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 1rem;
+  font-size:1rem;
 }
 
 h2, .h2 {
@@ -4234,7 +4234,11 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
+<<<<<<< HEAD
+  color: #823A8B;
+=======
   color: #6c757d;
+>>>>>>> 8363d37200addefe93d7b4a66640c10f07f8e8ea
   pointer-events: none;
   cursor: default;
 }
