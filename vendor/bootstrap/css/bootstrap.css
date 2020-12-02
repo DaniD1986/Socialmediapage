@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 1rem;
+  font-size:1rem;
 }
 
 h2, .h2 {
@@ -4246,13 +4246,13 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #F49953;
+  color: #823A8B;
   pointer-events: none;
   cursor: default;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #F49953;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .nav-tabs .nav-item {
@@ -4266,7 +4266,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #F49953 #F49953 #F49953;
+  border-color: #e9ecef #e9ecef #dee2e6;
 }
 
 .nav-tabs .nav-link.disabled {
@@ -4279,7 +4279,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: #fff;
-  border-color: #F49953 #F49953 #F49953;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4294,7 +4294,7 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #F49953;
+  color: #fff;
   background-color: #007bff;
 }
 
@@ -4680,19 +4680,19 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #EB5E45;
+  color: #fff;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #EB5E45;
+  color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: F49953;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: EB5E45;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -4703,8 +4703,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #EB5E45;
-  
+  color: #fff;
 }
 
 .navbar-dark .navbar-toggler {
@@ -6794,7 +6793,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #EEEFEA !important;
+  background-color: #343a40 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6804,7 +6803,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #r !important;
+  background-color: #fff !important;
 }
 
 .bg-transparent {
