@@ -157,9 +157,14 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.div-button
-{
+.div-button {
     margin-left: 20px;
 }
+
+.margintopfooter {
+    margin-top: 80px;
+}
+
+
 
 /*----------------------SLUT EVA-MARIA SETTINGSSIDAN------------------------------------------*/
