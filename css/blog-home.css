@@ -16,24 +16,15 @@ body {
 }
 
 
+
 h1.aboutus {
  color: #EB5E45;
 
 }
 
 h1.welcome {
-	color: #EB5E45;
-	font-size: 4rem;
-	margin-top: 100px;
+    color: #EB5E45;
+    font-size: 4rem;
+    margin-top: 100px;
 }
 
-button.createaccount{
-	margin-left: 700px;
-	margin-top: -70px;
-	width: 20%;
-}
-
-button.login {
-	margin-left: 770px;
-	width: 135%;
-}
