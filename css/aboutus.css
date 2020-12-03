@@ -1,0 +1,23 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template/blog-home)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 20px;
+    padding-left: 10px;
+
+	background-color: #4B2050;
+
+}
+
+p {
+
+	color: white;
+}
+
+main {
+
+	padding margin-left: 10px;
+}
