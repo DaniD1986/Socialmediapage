@@ -5,8 +5,7 @@
  */
 
 body {
-    padding-top: 20px;
-    padding-left: 10px;
+    margin: 40px;
 
 	background-color: #4B2050;
 
@@ -14,10 +13,19 @@ body {
 
 p {
 
-	color: white;
+	color: #F49953;
 }
 
 main {
 
-	padding margin-left: 10px;
+	margin: 40px;
+
 }
+
+h1 {
+
+	color:#F49953;
+	font-size: 50px;
+
+}
+
