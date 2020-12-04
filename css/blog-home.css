@@ -16,7 +16,6 @@ body {
 }
 
 
-
 h1.aboutus {
  color: #EB5E45;
 
@@ -28,8 +27,22 @@ h1.welcome {
     margin-top: 100px;
 }
 
+button.login {
+    margin-bottom: 10px;
+}
+
 button.createaccount {
     margin-bottom: 200px;
 }
 
+
+a.navto {
+    text-decoration: none;
+    
+}
+
+a.loginfeed{
+    text-decoration: none;
+
+}
 
