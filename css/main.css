@@ -82,12 +82,11 @@ h5 {
 }
 
 footer {
-  background-color: #EEEFEA;
    color: #EB5E45;
 }
 
 
-/*----------------------UNDER EVA-MARIA SETTINGSSIDAN------------------------------------------*/
+/*----------------------UNDER HÄR EVA-MARIA SETTINGSSIDAN------------------------------------------*/
 
 form.settingscard {
 margin-top: 40px;
@@ -164,6 +163,19 @@ input:checked + .slider:before {
 .margintopfooter {
     margin-top: 80px;
 }
+
+div.margintop {
+    margin-top: 80px;
+}
+
+@media screen and (min-width: 600px)  {
+        .mobile-break { display: none; }
+    }
+	
+.margintopmobile {
+    margin-top: 8px;
+}
+
 
 
 /*----------------------SLUT EVA-MARIA SETTINGSSIDAN------------------------------------------*/
