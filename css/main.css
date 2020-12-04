@@ -22,9 +22,12 @@ body {
   color: #F49953;
 }
 
-.nav-link:hover
-{
+.nav-link:hover{
   color: #823A8B;
+}
+
+.darkorangetext{
+  color: #EB5E45;
 }
 
 .page-link {
@@ -86,7 +89,7 @@ footer {
 }
 
 
-/*----------------------UNDER HÄR EVA-MARIA SETTINGSSIDAN------------------------------------------*/
+/*----------------------UNDER EVA-MARIA SETTINGSSIDAN------------------------------------------*/
 
 form.settingscard {
 margin-top: 40px;
@@ -171,10 +174,7 @@ div.margintop {
 @media screen and (min-width: 600px)  {
         .mobile-break { display: none; }
     }
-	
-.margintopmobile {
-    margin-top: 8px;
-}
+
 
 
 
