@@ -4,6 +4,26 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
  */
 
+h1 {
+
+	text-align: center;
+	color:#F49953;
+	font-size: 50px;
+}
+
+svg {
+
+	color: #F49953;
+
+}
+
+h2 {
+
+	text-align: center;
+	color: #F49953;
+	font-size: 30px;
+}
+
 body {
     margin: 40px;
 
@@ -22,10 +42,11 @@ main {
 
 }
 
-h1 {
 
-	color:#F49953;
-	font-size: 50px;
+img {
 
+	width: 30%;
+	height: 30;
 }
+
 
