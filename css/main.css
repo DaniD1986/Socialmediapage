@@ -207,5 +207,46 @@ div.margintop {
 }
 
 
+/* Create three unequal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column1floatright {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.column3 {
+  float: right;
+  float: right;
+  width: 35%;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
 
 /*----------------------SLUT EVA-MARIA SETTINGSSIDAN------------------------------------------*/
