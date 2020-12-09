@@ -16,6 +16,8 @@ body {
     color: #EB5E45;
     text-align: left;
     background-image: linear-gradient(220deg, #C14940, #3A143F);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 html {
@@ -30,7 +32,7 @@ img {
 h1.aboutus {
  color: #EB5E45;
  margin-left: 150px;
-
+ font-size: 36px;
 }
 
 h1.welcome {
