@@ -66,5 +66,10 @@ a.loginfeed{
 
 }
 
+footer.index {
+    clear: both;
+    position: relative;
+}
+
 
 
