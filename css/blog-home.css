@@ -67,6 +67,7 @@ a.loginfeed{
 }
 
 footer {
+    clear: both;
     position: relative;
 }
 
