@@ -195,7 +195,7 @@ img.indeximg {
 
 
 
-/*----------------------UNDER EVA-MARIA SETTINGSSIDAN------------------------------------------*/
+/* Card container*/
 
 form.settingscard {
 margin-top: 40px;
@@ -290,7 +290,7 @@ div.margintop {
   box-sizing: border-box;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Three equal columns that float next to each other */
 .column {
   float: left;
   width: 33.33%;
@@ -312,7 +312,7 @@ div.margintop {
 }
 
 
-/* Create three unequal columns that floats next to each other */
+/* Three unequal columns that float next to each other */
 .column1 {
   float: left;
   width: 50%;
@@ -346,7 +346,6 @@ div.margintop {
 }
 
 
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -354,13 +353,7 @@ div.margintop {
   }
 }
 
-
-
-/*----------------------SLUT EVA-MARIA SETTINGSSIDAN------------------------------------------*/
-
-/*Dani column*/
-
-/* Create two unequal columns that floats next to each other */
+/* Create two unequal columns that floats next to each other - Dani */
 .columnhalf {
   float: left;
   width: 50%;
